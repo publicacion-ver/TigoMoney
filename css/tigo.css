@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1.3rem;
+	line-height: 1.4em;
+	font-family: Roboto, sans-serif;
+	background: #E5E5E5;
+	box-sizing: border-box;
+}
+
+.cabecera{
+    background: #183578;
+    padding: 10px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	box-shadow: 2px 2px 5px #999;
+	z-index: 10;
+}
+.menu{
+	width: 20px;
+	cursor: pointer;
+}
+.logo{
+    width: 110px;
+	margin-left: 20px;
+	margin: 10px;
+}
+.grid{
+	display: grid;
+	place-items: center;
+}
+.contenedor{
+	margin-top: 80px;
+	width: 500px;
+	height: auto;
+	border: 1px solid #183578;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px #999;
+	background: white;
+}
+.contenedor p {
+	color: #183578;
+	font-size: 20px;
+	margin: 20px;
+	text-align: start;
+}
+.contenedor a{
+	text-decoration: none;
+	padding: 8px;
+	background: #ffbf00;
+	color: white;
+	border-radius: 20px;
+	width: 80%;
+	height: 30px;
+	display: inline-flex;
+	justify-items: center;
+	align-items: center;
+	box-shadow: 2px 2px 5px #999;
+	position: relative;
+	left: auto;
+}
+.ico{
+	width: 20px;
+	margin-left: 10px;
+	margin-right: 5px;
+
+}
+.boton{
+	display: grid;
+	place-items: center;
+}
+.contenedor form {
+	box-sizing: border-box;
+}
+.contenedor form input{
+	width: 95%;
+	display: block;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #183578;
+	outline-color: #00CFE8;
+}
+.contenedor form button{
+	width: 95%;
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	color: white;
+	background: #00CFE8;
+	border-style: none;
+	cursor: pointer;
+}
+.span{
+	font-size: 10px;
+	margin-left: 30px; 
+	position: relative;
+	display: inline;
+	top: 15px;
+	background: white; 
+	color: white;
+	
+
+}
+.span span{
+	color: #7E7E7E;
+}
+.boton a p {
+	color: white;
+}
+#veri{
+	width: 150px;
+	fill: #00CFE8;
+	display: block;
+	margin: auto;
+}
+.contenedor h1{
+	color: #555555;
+	line-height: normal;
+	margin-left: 20px;
+}
+
+@media only screen and (max-width: 1024px){
+	.menu{
+		display: inline-block;
+	}
+	.contenedor{
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 440px){
+	.conti{
+	  display: none;
+	}
+}
